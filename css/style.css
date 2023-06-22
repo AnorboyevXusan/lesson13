@@ -1,0 +1,168 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  
+  font-family: 'Orbitron', sans-serif;
+
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.hero {
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 1) 50%,
+    rgba(87, 184, 252, 1) 50%
+  );
+}
+
+.container {
+  max-width: 1440px;
+  width: 100%;
+  padding: 0 32px;
+  margin: 0 auto;
+}
+
+.header {
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hed-nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 60px;
+}
+
+.hed-nav ul a{
+  color: #fff;
+}
+.hed-nav ul a:hover {
+  color: #FAC422  ;
+}
+
+.btn-hed {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.btn-hed button {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+.btn-hed a {
+  padding: 13px 31px;
+  background-color: transparent;
+  color: #fff;
+  border: 1px solid #fff;
+}
+
+.btn-hed a:hover {
+  background-color: #000000;
+}
+
+.hed-2{
+  padding-bottom: 250px ;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tex-1{
+  padding-top: 200px;
+}
+
+.live{
+  padding-top: 200px;
+}
+
+
+.tex-1 a{
+  padding: 13px 31px;
+  background-color: transparent;
+  color: #fff;
+  border: 1px solid #fff;
+}
+
+.tex-1 a:hover{
+  background-color: #57B8FF;
+
+}
+.tex-1 span{
+  color: #57B8FF ;
+  font-size: 16px;
+  margin-bottom: 24px;
+}
+.tex-1 h1{
+  font-weight: 400;
+  font-size: 72px;
+  color: #FFFFFF;
+  margin-bottom: 45px;
+}
+
+.tex-1 p{
+  color: #999999;
+  margin-bottom: 72px
+}
+
+
+
+.hero2{
+  background-image: url(../imgs/bagrond2.png);
+
+}
+.needs{
+  text-align: center;
+  padding-top: 136px;
+}
+.needs span{
+  color: #57B8FF;
+  font-size: 16px;
+  margin-bottom:22px ;
+  display: inline-block;
+}
+.needs h2{
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 74px;
+  color: #fff;
+  margin-bottom: 28px;
+}
+.needs p{
+  font-size: 20px;
+  color:#999999 ;
+}
+
+.cart{
+  padding: 32px 46px;
+  width: 642.46px;
+  background-color: #ffff;
+  opacity:calc (10%);
+}
+
+.cart span{
+   color: #FFF;
+   font-size: 32px;
+}
+
+.cart p{
+  font-size: 20px;
+  color:#999999 ;
+}
