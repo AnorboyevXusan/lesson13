@@ -71,8 +71,20 @@ li {
   padding: 13px 31px;
   background-color: transparent;
   color: #fff;
-  border: 1px solid #fff;
+  border: none;
 }
+.burger{
+
+  display: none;
+  background: transparent;
+  border: none;
+}
+.close {
+  display: none;
+  background: transparent;
+  border: none;
+}
+
 
 .btn-hed a:hover {
   background-color: #000000;
@@ -92,6 +104,8 @@ li {
 .live{
   padding-top: 200px;
 }
+
+
 
 
 .tex-1 a{
@@ -126,18 +140,24 @@ li {
 
 .hero2{
   background-image: url(../imgs/bagrond2.png);
+  background-size: 200% 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
 
 }
+
 .needs{
   text-align: center;
   padding-top: 136px;
 }
+
 .needs span{
   color: #57B8FF;
   font-size: 16px;
   margin-bottom:22px ;
   display: inline-block;
 }
+
 .needs h2{
   font-weight: 400;
   font-size: 64px;
@@ -145,6 +165,7 @@ li {
   color: #fff;
   margin-bottom: 28px;
 }
+
 .needs p{
   font-size: 20px;
   color:#999999 ;
@@ -153,16 +174,150 @@ li {
 .cart{
   padding: 32px 46px;
   width: 642.46px;
-  background-color: #ffff;
-  opacity:calc (10%);
+  background-color: rgba(255, 255,255, 0.2);
+  margin-bottom: 32px;
+  border-radius: 20px;
 }
 
 .cart span{
-   color: #FFF;
+   color: #dad8d8;
    font-size: 32px;
+   display: inline-block;
 }
 
 .cart p{
-  font-size: 20px;
+  font-size: 18px;
   color:#999999 ;
+}
+
+.big-cart{
+  padding-top: 60px;
+  padding-bottom: 130px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.hero3 {
+  background-color: #000000;
+}
+
+.cloud{
+  padding-top: 130px;
+  padding-bottom: 145px;
+}
+
+.cloud span{
+  color: #57B8FF ;
+  font-size: 16px;
+  margin-bottom: 24px;
+  padding-bottom: 22px;
+  display: inline-block
+}
+.cloud h2{
+  font-size: 64px;
+  font-weight: 400;
+  color: #FFFFFF;
+}
+
+.cloud p{
+  padding-top: 38px;
+  color: rgba(223, 223, 223, 0.8);
+  font-size: 20px;
+  padding-bottom: 55px;
+}
+
+.cloud a{
+  padding: 13px 31px;
+  background-color: transparent;
+  color: #fff;
+  border: 1px solid #fff;
+}
+
+.cloud a:hover{
+  background-color: #57B8FF;
+
+}
+
+.vidyo{
+  position: relative;
+}
+
+.vidyo image{
+  position: relative;
+}
+
+.vidyo button{
+  position: absolute;
+  top: 200px ;
+  left: 170px;
+ 
+ 
+  border-radius: 50%;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.sekt-3{
+  padding-top: 85px;
+  display: flex;
+  justify-content: space-between;
+}
+@media only screen and (max-width: 850px) {
+  .hero {
+    background: rgb(0, 0, 0);
+    background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 1) 50%,
+      rgba(87, 184, 252, 1) 50%
+    );
+  }
+  .hed-2{
+   text-align: center;
+    flex-flow: column;
+   
+  }
+  .tex-1 h1{
+    font-size: 52px;
+  }
+
+  .needs h2{
+    font-size: 45px;
+  }
+  .big-cart{
+    flex-flow: column;
+    text-align: center;
+  }
+  .btn-hed a:hover {
+    background-color: #57B8FF;
+  }
+  .burger{
+    display: block;
+  }
+  .hed-nav ul {
+    display: none;
+}
+.sekt-3{
+  flex-flow: column;
+  text-align: center;
+}
+.cloud h2{
+  font-size: 45px;
+}
+.cloud p {
+  padding-top: 38px;
+  color: rgba(223, 223, 223, 0.8);
+  font-size: 14px;
+  padding-bottom: 55px;
+}
+.needs p {
+  font-size: 14px;
+  color: #999999;
+}
+.cart p {
+  font-size: 12px;
+  color: #999999;
+}
+  
 }
